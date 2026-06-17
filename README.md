@@ -1,5 +1,6 @@
 # EWU Car Rental Portal
 
+
 A comprehensive web-based car rental management system that enables users to browse, search, and book vehicles. This application includes both customer-facing and administrative interfaces for complete car rental business management.
 
 ## Overview
