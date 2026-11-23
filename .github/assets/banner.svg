@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e1b4b"/><stop offset=".45" stop-color="#be185d"/><stop offset=".8" stop-color="#f97316"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+    <linearGradient id="disc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde047"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+    <clipPath id="sunclip"><rect x="0" y="0" width="1200" height="214"/></clipPath>
+    <style>.lane{animation:l .8s linear infinite}@keyframes l{to{stroke-dashoffset:-80}}.wheel{animation:w .6s linear infinite}@keyframes w{to{transform:rotate(360deg)}}</style>
+  </defs>
+  <rect width="1200" height="320" fill="url(#sun)"/>
+  <g clip-path="url(#sunclip)">
+    <circle cx="880" cy="214" r="120" fill="url(#disc)"/>
+    <g fill="#be185d"><rect x="740" y="150" width="280" height="6"/><rect x="740" y="170" width="280" height="9"/><rect x="740" y="192" width="280" height="12"/></g>
+  </g>
+  <path d="M0 214l120-50 90 30 140-70 120 70 100-40 140 60 110-30 120 40 100-50 160 40v14z" fill="#312e81" opacity=".7"/>
+  <rect y="214" width="1200" height="106" fill="#18181b"/>
+  <line class="lane" x1="0" y1="268" x2="1200" y2="268" stroke="#fbbf24" stroke-width="5" stroke-dasharray="44 36"/>
+  <!-- car silhouette -->
+  <g transform="translate(760 196)">
+    <path d="M0 52V34l30-6 46-26h120l44 26 50 6v18z" fill="#0f0f14"/>
+    <path d="M84 8h46v22H52zM138 8h52l34 22h-86z" fill="#fb923c" opacity=".55"/>
+    <g fill="#27272a" stroke="#a1a1aa" stroke-width="3">
+      <g transform="translate(64 54)"><g class="wheel"><circle r="17"/><path d="M-12 0h24M0-12v24"/></g></g>
+      <g transform="translate(232 54)"><g class="wheel"><circle r="17"/><path d="M-12 0h24M0-12v24"/></g></g>
+    </g>
+    <rect x="284" y="36" width="10" height="7" fill="#fde047"/>
+  </g>
+  <text x="66" y="116" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#fbcfe8" letter-spacing="8">EWU</text>
+  <text x="62" y="180" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="70" font-weight="900" fill="#fff7ed" letter-spacing="2">CAR RENTAL</text>
+  <text x="66" y="300" font-family="Consolas, Menlo, monospace" font-size="17" fill="#fdba74">browse · search · book · manage — PHP · MySQL · Bootstrap</text>
+</svg>

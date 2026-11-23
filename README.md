@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/banner.svg" alt="EWU Car Rental banner" width="100%">
+</p>
+
 # EWU Car Rental Portal
 
 
